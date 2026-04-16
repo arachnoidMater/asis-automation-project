@@ -39,22 +39,30 @@ Testleri çalıştırmadan önce aşağıdaki kurulumların yapılmış olması 
 ### **💻MAC**
 
 1️⃣ Java
+
 • Java 17 veya üzeri
+
 (https://www.oracle.com/tr/java/technologies/downloads/)
 
 2️⃣ Android SDK & Emulator
+
 • Android Studio kurulu olmalı
+
 • En az bir Android Emulator oluşturulmalı (Örn: Android 13 – API 33)
 (https://developer.android.com/studio?hl=tr)
 
 3️⃣ Appium
+
 • Appium (CLI) kurulu olmalı
+
 (https://appium.io/docs/en/latest/quickstart/install/)
 
 • Appium server 4723 portunda çalışıyor olmalı
 
 4️⃣ Node.js
+
 Appium için gereklidir.
+
 (https://nodejs.org/en/download/prebuilt-installer)
 
 ### **🪟WINDOWS**
@@ -134,6 +142,7 @@ Runner class içerisinden tag değiştirilerek ilgili senaryolar çalıştırıl
 ## **📸 Screenshot Mekanizması**
 
 • Fail olan testlerde otomatik screenshot alınır.
+
 • Screenshot’lar target/screenshots klasörüne kaydedilir ve Allure raporunda da görüntülenebilir.
 
 ## **📂Proje Yapısı**
@@ -159,8 +168,11 @@ src
 ## **⚠️Notlar**
 
 • Testlerde explicit wait kullanılmıştır.
+
 • Thread.sleep kullanılmamıştır.  
-• Framework Page Object Model (POM) yapısına uygundur.  
+
+• Framework Page Object Model (POM) yapısına uygundur. 
+
 • Web ve Mobile testler tek framework üzerinden yönetilmektedir.
 
 
