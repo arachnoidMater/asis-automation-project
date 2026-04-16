@@ -49,6 +49,7 @@ Testleri çalıştırmadan önce aşağıdaki kurulumların yapılmış olması 
 • Android Studio kurulu olmalı
 
 • En az bir Android Emulator oluşturulmalı (Örn: Android 13 – API 33)
+
 (https://developer.android.com/studio?hl=tr)
 
 3️⃣ Appium
