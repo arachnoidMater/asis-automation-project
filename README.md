@@ -8,13 +8,21 @@ Proje kapsamında Login, Logout, Add Employee, Employee Search, Form Interaction
 ## **🛠️Kullanılan Teknolojiler**
 
 • Java 17+
+
 • Selenium WebDriver
+
 • Appium
+
 • Cucumber (BDD)
+
 • JUnit 5
+
 • Maven
+
 • Allure Report
+
 • Android Emulator / Real Device
+
 • UiAutomator2
 
 ## **🔹Platform Seçimi**
@@ -98,8 +106,11 @@ baseUrl=https://example.com
 Testler tag bazlı çalıştırılabilir:
 
 • @mobile → Mobile testleri
+
 • @web → Web testleri
+
 • @scroll → Scroll senaryosu
+
 • @alert → Alert senaryosu
 
 Runner class içerisinden tag değiştirilerek ilgili senaryolar çalıştırılabilir.
